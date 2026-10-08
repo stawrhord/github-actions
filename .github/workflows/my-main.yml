@@ -12,19 +12,19 @@ on:
     branches:
       - master
 
+
 jobs:
   my_testing:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Hello Message in testing
+      - name: Print Hello Message in Testing
         run : echo "Hello World from Testing job"
 
-      - name: Execure few commands
-        run: 
-          echo "Hello Message1"
-          echo "Hello Message2"
-          echo "Aplication name: ${{ env.APPLICATION_NAME }}"
+      - name: Execure few copmmands
+         run: echo "Hello Message1"
+              echo "Hello Message2"
+              echo "Aplication name: ${{ env.APPLICATION_NAME }}"
           
   my_deploy:
     runs-on: ubuntu-latest
