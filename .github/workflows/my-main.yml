@@ -2,7 +2,7 @@
 #
 # CopyLeft (c) by AlexR 2026.
 #----------------------------------------
-name: My-GitHubActions-Basics
+name: My-GHA
 
 env:
   APPLICATION_NAME: "MyFlask"
